@@ -19,9 +19,33 @@ Vertebral is lightweight and simple. It styles only raw HTML elements (with a fe
 
 ## What differs from Skeleton ?
 
-- A lot of fixes have been incorporated (cf. [Skeleton issues](https://github.com/dhg/Skeleton/issues))
-- Integrate normalize.css 
-- Styles for android / ios / wp platforms
+#### Fixes/PR have been incorporated
+
+- Button disable styles
+- Formatting for date inputs
+- Text utilities for alignment
+- Handle `:active` state
+
+cf. [Skeleton issues](https://github.com/dhg/Skeleton/issues) and [PR](https://github.com/dhg/Skeleton/pulls)
+
+#### Integrate normalize.css 
+
+Instead of having to add a css reference, normalize.css is directly embedded in vertebral.css
+
+#### Features addition
+
+- Form fields
+- Links styling
+- Responsive images 
+- Responsive embed utilities (iframe, video, embed...)
+- Block shapes
+- Text utilities
+
+#### Styles for mobile platforms
+
+- Android
+- iOS
+- Windows Phone
 
 ## Browser support
 
