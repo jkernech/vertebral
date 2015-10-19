@@ -1,0 +1,27 @@
+{
+  "name": "vertebral",
+  "version": "0.1.0",
+  "authors": [
+    "Julien Kernec'h <julien.kernech@outlook.com>"
+  ],
+  "main": "css/vertebral.min.css",
+  "keywords": [
+    "vertebral",
+    "css",
+    "sass",
+    "framework",
+    "mobile-first",
+    "responsive",
+    "front-end",
+    "web"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": { 
+    "normalize.css": "~3.0.3"
+  }
+}

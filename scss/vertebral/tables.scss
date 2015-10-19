@@ -1,0 +1,21 @@
+
+table {
+  display: block;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch; 
+}
+
+th,
+td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid $light-grey;
+
+  &:first-child {
+  	padding-left: 0;
+  }
+
+  &:last-child {
+  	padding-right: 0;
+  }
+}

@@ -1,0 +1,75 @@
+
+// Make element full width 
+.full-width {
+  width: 100%;
+  box-sizing: border-box; 
+}
+
+// Make sure elements don't run outside containers (great for images in columns) 
+.max-full-width {
+  max-width: 100%;
+  box-sizing: border-box; 
+}
+
+// Float either direction 
+.pull-right {
+  float: right; 
+}
+
+.pull-left {
+  float: left; 
+}
+
+// Clear a float 
+.clear {
+  content: "";
+  display: table;
+  clear: both; 
+}
+
+// Text alignment
+
+.text-left           { text-align: left; }
+.text-right          { text-align: right; }
+.text-center         { text-align: center; }
+.text-justify        { text-align: justify; }
+.text-nowrap         { white-space: nowrap; }
+
+// Text transformation
+
+.text-lowercase      { text-transform: lowercase; }
+.text-uppercase      { text-transform: uppercase; }
+.text-capitalize     { text-transform: capitalize; }
+
+// Block displays
+
+.show                { display: block !important; }
+.hidden              { display: none !important; }
+.invisible           { visibility: hidden; }
+
+// Responsive image - Keep images from scaling beyond the width of their parents.
+
+.img-responsive {
+  display: block;
+  max-width: 100%; // Part 1: Set a maximum relative to the parent
+  height: auto; // Part 2: Scale the height according to the width, otherwise you get stretching
+}
+
+// Block shapes
+
+.circle              { border-radius: 50%; } // perfect circle
+.rounded             { border-radius: 6px; }
+
+.thumbnail {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  padding: 4px;
+  line-height: 1.4;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-transition: all .2s ease-in-out;
+       -o-transition: all .2s ease-in-out;
+          transition: all .2s ease-in-out;
+}

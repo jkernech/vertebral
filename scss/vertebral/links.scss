@@ -1,0 +1,35 @@
+
+a,
+button.link,
+input[type].link {
+    background: none;
+    border: 1px solid transparent;
+    box-shadow: none;
+    color: $link-color;
+    font-size: inherit;
+    font-weight: normal;
+    letter-spacing: 0;
+    padding: 0;
+    text-decoration: underline;
+    text-transform: none;
+
+    &:focus,
+    &:hover {
+        background: none;
+        border-color: transparent;
+        box-shadow: none;
+        color: darken($link-color, 5%);
+        text-decoration: none;
+    }
+
+    &[disabled] {
+        color: $dark-grey;
+        cursor: not-allowed;
+        text-decoration: none;
+
+        &:focus,
+        &:hover {
+            color: $dark-grey;
+        }
+    }
+}

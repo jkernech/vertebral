@@ -1,0 +1,46 @@
+.hidden-mobile,
+.hidden-phablet,
+.hidden-tablet,
+.hidden-desktop,
+.hidden-hd { 
+	display: block; 
+}
+
+.visible-mobile,
+.visible-phablet,
+.visible-tablet,
+.visible-desktop,
+.visible-hd { 
+	display: none; 
+}
+
+
+// Larger than mobile
+@media (#{$bp-larger-than-mobile}) {
+	.hidden-mobile { display: none; }
+	.visible-mobile { display: block; }
+}
+
+// Larger than phablet (also point when grid becomes active)
+@media (#{$bp-larger-than-phablet}) {
+	.hidden-phablet { display: none; }
+	.visible-phablet { display: block; }	
+}
+
+// Larger than tablet
+@media (#{$bp-larger-than-tablet}) {
+	.hidden-tablet { display: none; }
+	.visible-tablet { display: block; }		
+}
+
+// Larger than desktop
+@media (#{$bp-larger-than-desktop}) {
+	.hidden-desktop { display: none; }
+	.visible-desktop { display: block; }	
+}
+
+// Larger than Desktop HD
+@media (#{$bp-larger-than-desktophd}) {
+	.hidden-hd { display: none; }
+	.visible-hd { display: block; }	
+}
