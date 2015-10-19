@@ -1,6 +1,6 @@
 {
   "name": "vertebral",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "main": "css/vertebral.min.css",
   "dependencies": {},
@@ -12,7 +12,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall" : "bower install"
+    "postinstall": "bower install"
   },
   "keywords": [
     "vertebral",
